@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  color: black;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+
+.navbar-visit {
+  background-color: white;
+  padding: 3%;
+  font-weight: 300;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.items {
+  display: flex;
+  gap: 30px;
+  font-size: 1.5rem;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+h1 {
+  margin: 10px 0 0 13px;
+}
+
+.icons {
+  height: 25px;
+  width: 25px;
+}
+
+.anchor {
+  color: black;
+  text-decoration: none;
+  position: relative;
+}
+
+.anchor::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background-color: black;
+  transition: width 0.3s ease;
+}
+
+.anchor:hover::after {
+  width: 100%;
+}

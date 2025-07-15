@@ -1,0 +1,63 @@
+.container-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    margin-top: 20px;
+}
+
+.guest {
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-right: 0;
+}
+
+#date {
+    border-right: 0;
+    border-left: 0;
+    border-radius: 0;
+    border: 0.8 black;
+}
+
+.time {
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+    border: 0.8 black;
+}
+
+.submit {
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-left: 0;
+    background-color: black;
+}
+
+.totalbtns {
+    padding: 12px 24px 12px 24px;
+    background-color: white;
+    color: black;
+}
+
+.picture {
+    margin-left: 150px;
+    width: 80%;
+    height: 75%;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}

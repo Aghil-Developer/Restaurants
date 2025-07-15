@@ -1,0 +1,89 @@
+body {
+    background-color: #F1F1F1;
+}
+
+.container-starter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.title {
+    font-size: 5rem;
+    font-weight: 500;
+}
+
+.slogan {
+    font-size: 1.25rem;
+}
+
+.dash {
+    font-family: 'Barlow Condensed';
+    font-weight: 200;
+    font-style: italic;
+    font-size: 5rem;
+}
+
+.contents {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    gap: 30px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.content-1,
+.content-2,
+.content-3,
+.content-4 {
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+}
+
+.title-dishes {
+    font-size: 2rem;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+}
+
+.dash-dishes {
+    font-family: 'Barlow Condensed';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2rem;
+}
+
+.content-dishes {
+    font-size: 1.25rem;
+}
+
+.title-head {
+    font-size: 3.5rem;
+    font-weight: 500;
+}
+
+.eat-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+#lamb {
+    width: 85%;
+    height: 450px;
+}
+
+.bottom {
+    margin-bottom: 10%;
+}
